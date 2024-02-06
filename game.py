@@ -32,7 +32,7 @@ def tic_tac_toe():
     board = [[" " for _ in range(3)] for _ in range(3)]
     player = "X"
 
-    print("Welcome to Tic-Tac-Toe!")
+    print("Welcome to Tic-Tac-Toe! Good luck!")
 
     while True:
         print_board(board)
