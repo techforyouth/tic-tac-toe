@@ -24,6 +24,7 @@ def check_winner(board):
 
 def is_board_full(board):
     for row in board:
+        print("test")
         if " " in row:
             return False
     return True
