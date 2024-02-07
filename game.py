@@ -49,6 +49,7 @@ def tic_tac_toe():
         if check_winner(board):
             print_board(board)
             print(f"Player {player} wins!")
+            answer = input("Do you want to try again?")
             break
         elif is_board_full(board):
             print_board(board)
